@@ -19,5 +19,21 @@ int main()
  scanf("%d",&s2);
  s=s1-s2;
  printf("O resultado da subtracao:%d\n",s);
+ //multiplicação//
+ s=0;
+ printf("Digite o primeiro numero inteiro que sera multiplicado:\n");
+ scanf("%d",&m1);
+ printf("Digite o segundo numero inteiro:\n");
+ scanf("%d",&m2);
+ s=m1*m2;
+ printf("O resultado da multiplicacao:%d\n",s);
+ //divisão//
+ s=0;
+ printf("Digite o primeiro numero inteiro que sera dividido:\n");
+ scanf("%f",&S1);
+ printf("Digite o segundo numero inteiro:\n");
+ scanf("%f",&S2);
+ S=S1/S2;
+ printf("O resultado da divisao:%f\n",S);
 return 0;
 }
