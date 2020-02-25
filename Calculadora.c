@@ -11,6 +11,13 @@ int main()
  scanf("%d",&n2);
  s=n1+n2;
  printf("O resultado da soma:%d\n",s);
-
+//subtração//
+ s=0;
+ printf("Digite o primeiro numero inteiro que sera subtraido:\n");
+ scanf("%d",&s1);
+ printf("Digite o segundo numero inteiro:\n");
+ scanf("%d",&s2);
+ s=s1-s2;
+ printf("O resultado da subtracao:%d\n",s);
 return 0;
 }
